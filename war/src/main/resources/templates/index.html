@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" ng-app="crashApp">
+
+<head>
+    <title>Spring Boot with Source Maps</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <script type="text/javascript" th:src="@{/js/libs.min.js}"></script>
+    <script type="text/javascript" th:src="@{/js/app.min.js}"></script>
+</head>
+
+<body ng-controller="CrashCtrl">
+
+    <p><button ng-click="crash()">Crash me!</button></p>
+
+</body>
+</html>
